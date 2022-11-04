@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="ye.css" rel="stylesheet">
+    <title>Stopwatch!</title>
+    <script src="code.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>SPEEDRUN STOPWATCH</h1>
+        <div class="timerDisplay">
+            00 : 00 : 00 : 000
+         </div>
+         <div class="buttons">
+            <button id="pauseTimer" onclick="pauseAudio()">PAUSE</button>
+            <button id="startTimer" onclick="playAudio()">START</button>
+            <button id="resetTimer" onclick="pauseAudio()">RESET</button>
+        </div>
+        <br>
+        <h4>BY REGINALD FAIRLEY JR.</h4>
+    </div>
+    <audio id="myAudio">
+        <source src="run.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>
