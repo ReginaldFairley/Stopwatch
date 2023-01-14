@@ -1,0 +1,32 @@
+// Index
+1. Set title to "Stopwatch!"
+2. Link CSS and JS files
+3. Create a div/tag class:
+* div classes go within CSS while div tage stays in index
+   - Create a h1 named "SPEEDRUN STOPWATCH"
+   - Create another div class/tag to display timer
+   - Create another div class/tag to display buttons
+   - Create a h4 named "BY REGINALD FAIRLEY JR."
+4. Create an audio tag
+   - Import music file 
+
+// CSS
+1. import custom gif and custom font
+2. set custom gif as background
+3. set body, h1, and h4 as custom font
+4. set font and color of numbers
+5. set background and regular color of all buttons 
+6. set a different background and regular color to all buttons when hovered
+
+// JS
+1. Set up the time to be counted
+* Millisconds, seconds, minutes, and hours set all to 0
+
+2. Create the start button
+3. Create the pause button
+4. Create the reset button
+5. Create the continue button over start button
+
+6. Create the variables to count by Millisconds, seconds, minutes, and hours
+7. Create the music to be added in the background
+8. Link music to the start and pause button
